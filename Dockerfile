@@ -7,5 +7,5 @@ RUN apt-get install -y paraview
 
 RUN sudo apt-get -y install octave
 RUN sudo apt-get -y install evince
-RUN sudo apt-get -y git-core
+RUN sudo apt-get git-core
 
