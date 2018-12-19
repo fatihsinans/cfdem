@@ -1,7 +1,7 @@
 FROM nimbix/ubuntu-desktop
 
 
-RUN apt-get update && apt-get -y --force-yes install gedit && apt-get clean
+RUN apt-get update && apt-get -y --force-yes install gedit
 
 RUN apt-get install -y paraview
 
