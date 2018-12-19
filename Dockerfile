@@ -9,6 +9,6 @@ RUN sudo apt-get -y install octave
 RUN sudo apt-get -y install evince
 RUN sudo apt-get -y install git-core
 
-COPY $HOME/data/CFDEM/.bashrc/ ~/.bashrc
+COPY /home/nimbix/data/CFDEM/.bashrc /home/nimbix/
 
 CMD source ~/.bashrc
