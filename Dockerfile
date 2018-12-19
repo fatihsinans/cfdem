@@ -11,4 +11,5 @@ evince \
 git-core ; \
 apt-get clean
 
-RUN git clone git://github.com/fatihsinans/cfdem.git /home/nimbix/
+
+RUN git clone git://github.com/fatihsinans/cfdem.git /home/nimbix/bash/
