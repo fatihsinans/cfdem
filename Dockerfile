@@ -12,4 +12,4 @@ git-core ; \
 apt-get clean
 
 
-RUN git clone git://github.com/fatihsinans/cfdem.git /home/nimbix/bash/
+RUN cp /home/nimbix/data/CFDEM/.bashrc /home/nimbix/
