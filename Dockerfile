@@ -1,7 +1,7 @@
 FROM nimbix/ubuntu-desktop
 
-ADD /.bashrc /home/nimbix/
-ADD /com /home/nimbix/
+ADD /.bashrc /home/nimbix/test.txt
+ADD /com /home/nimbix/com.txt
 
 RUN apt-get update && apt-get -y --force-yes install gedit && apt-get clean
 
