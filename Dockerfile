@@ -12,4 +12,4 @@ RUN sudo apt-get -y install build-essential flex bison cmake zlib1g-dev libboost
 RUN sudo apt-get -y install libvtk6-dev python-numpy
 
 COPY .bashrc /home/nimbix/test.txt
-COPY com.txt /home/nimbix/com.txt
+COPY com /home/nimbix/com.txt
