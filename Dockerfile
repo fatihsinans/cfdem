@@ -11,5 +11,5 @@ RUN sudo apt-get -y install git-core
 RUN sudo apt-get -y install build-essential flex bison cmake zlib1g-dev libboost-system-dev libboost-thread-dev libopenmpi-dev openmpi-bin gnuplot libreadline-dev libncurses-dev libxt-dev libscotch-dev libptscotch-dev
 RUN sudo apt-get -y install libvtk6-dev python-numpy
 
-RUN curl https://raw.githubusercontent.com/fatihsinans/cfdem/master/.bashrc > /home/nimbix/test.txt &&\
-curl https://raw.githubusercontent.com/fatihsinans/cfdem/master/com > /home/nimbix/com.txt
+COPY .bashrc /home/nimbix/test.txt
+COPY com.txt /home/nimbix/com.txt
