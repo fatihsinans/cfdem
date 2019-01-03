@@ -12,3 +12,4 @@ RUN sudo apt-get -y install build-essential flex bison cmake zlib1g-dev libboost
 RUN sudo apt-get -y install libvtk6-dev python-numpy
 
 
+COPY .bashrc /usr/local/
