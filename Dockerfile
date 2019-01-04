@@ -16,5 +16,6 @@ COPY .bashrc /usr/local/
 
 
 COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod 755 /usr/local/bin/docker-entrypoint.sh
 RUN ln -s usr/local/bin/docker-entrypoint.sh / # backwards compat
 ENTRYPOINT ["docker-entrypoint.sh"]
