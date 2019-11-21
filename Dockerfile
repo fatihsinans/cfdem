@@ -1,7 +1,7 @@
-FROM nimbix/ubuntu-desktop
+FROM nimbix/centos-desktop
 
 
-RUN apt-get update && apt-get -y --force-yes install gedit && apt-get clean
+#RUN apt-get update && apt-get -y --force-yes install gedit && apt-get clean
 
 #RUN sudo apt-get -y install docker.io
 
